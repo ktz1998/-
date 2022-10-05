@@ -22,3 +22,45 @@ main {
   position: relative;
   background-color: #EEEEEE;
 }
+
+.step-box:last-child {
+  margin-right: 0;
+}
+
+.image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff9a4b;
+  color: #fff;
+}
+
+.title {
+  margin: 15px 0 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: #AAAAAA;
+}
